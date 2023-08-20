@@ -1,0 +1,128 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-weight: 800;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 24px 128px;
+}
+
+
+
+.link {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.initsec {
+    background-color: #1F2937;
+    color: #FFF;
+    display: flex;
+    padding: 128px;
+    justify-content: space-between;
+}
+
+.awesome {
+    width: 400px;
+}
+
+.polar {
+    width: 400px;
+    height: 250px;
+}
+
+.button1 {
+    background-color: #3882F6;
+    color: #FFF;
+    border: solid #3882F6;
+    border-radius: 5px;
+    padding: 6px 24px;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 84px 0;
+}
+
+.dog {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.pics4 {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    padding-bottom: 48px;
+}
+
+.randompic {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 256px;
+}
+
+.quotefoot {
+    text-align: right;
+}
+
+.ctasec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta1 {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 0px 96px;
+    margin: 48px 256px;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.cta2 {
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+}
+
+.button2 {
+    margin: 60px;
+    padding: 8px 24px;
+    border-color: #F9FAF8;
+    border-radius: 4px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    flex: 1;
+}
